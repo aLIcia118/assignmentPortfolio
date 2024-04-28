@@ -1,0 +1,61 @@
+/* style.css */
+body {
+  
+  padding-top: 8%;
+  /* margin: 0; */
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header-container {
+  background-color: rgb(255, 238, 238); 
+  width: 100%;
+  padding: 20px 0; 
+  text-align: center;
+}
+
+#imagePort {
+  margin-top: 20px;
+  width: auto;
+  height: 40%;
+  padding-bottom: 20px;
+}
+
+.image-container {
+  margin: 10px 0; /* Adjust margin to reduce spacing between images */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 139, 158);
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 139, 158);
+}
+
+
+a {
+  color: rgb(255, 139, 158);
+  padding-left: 90%;
+}
+
+/* Style to remove bullet points */
+#todoList {
+  list-style-type: none;
+}
+
+/* Optional: Add some margin to the tasks */
+#todoList li {
+  margin-bottom: 5px;
+}
+
